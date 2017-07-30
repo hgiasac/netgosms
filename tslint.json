@@ -1,0 +1,114 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint:recommended",
+    "tslint-eslint-rules",
+    "tslint-consistent-codestyle"
+  ],
+  "rules": {
+    "no-angle-bracket-type-assertion": false,
+    "no-static-this": true,
+    "no-return-undefined": true,
+    "no-unnecessary-else": true,
+    "prefer-while": true,
+    "prefer-const-enum": true,
+    "parameter-properties": true,
+    "object-shorthand-properties-first": true,
+    "no-var-before-return": true,
+    "no-unused": true,
+    "no-collapsible-if": true,
+    "no-as-type-assertion": true,
+    "naming-convention": true,
+    "arrow-parens": false,
+    "interface-name": false,
+    "triple-equals": true,
+    "max-line-length": false,
+    "newline-before-return": false,
+    "no-boolean-literal-compare": false,
+    "no-constant-condition": "error",
+    "no-default-export": false,
+    "no-duplicate-variable": true,
+    "no-duplicate-case": "error",
+    "no-extra-boolean-cast": "error",
+    "no-extra-semi": "error",
+    "no-irregular-whitespace": "error",
+    "no-magic-numbers": false,
+    "no-multi-spaces": "error",
+    "no-non-null-assertion": true,
+    "no-require-imports": false,
+    "no-var-requires": false,
+    "no-unnecessary-callback-wrapper": true,
+    "no-unsafe-any": false,
+    "object-literal-sort-keys": false,
+    "promise-function-async": false,
+    "prefer-function-over-method": false,
+    "prefer-method-signature": false,
+    "quotemark": [true, "single"],
+    "variable-name": false,
+    "array-bracket-spacing": [
+      "error",
+      "never"
+    ],
+    "arrow-return-shorthand": [
+      true
+    ],
+    "block-spacing": [
+      "error",
+      "always"
+    ],
+    "linebreak-style": [
+      true,
+      "LF"
+    ],
+    "no-consecutive-blank-lines": [
+      true,
+      1
+    ],
+    "no-namespace": [
+      true,
+      "allow-declarations"
+    ],
+    "no-trailing-whitespace": [
+      true,
+      "ignore-comments"
+    ],
+    "no-unused-expression": [
+      true,
+      "allow-fast-null-checks"
+    ],
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "lowercase-last",
+        "named-imports-order": "lowercase-first"
+      }
+    ],
+    "prefer-template": [
+      true,
+      "allow-single-concat"
+    ],
+    "ter-indent": [
+      true,
+      2
+    ],
+    "trailing-comma": true,
+    "typedef": [
+      true,
+      "property-declaration"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-operator",
+      "check-typecast",
+      "check-separator",
+      "check-type",
+      "check-preblock"
+    ],
+    "early-exit": true
+  }
+}

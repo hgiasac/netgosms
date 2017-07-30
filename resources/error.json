@@ -1,0 +1,12 @@
+{
+  "-1": "Username hoặc Password không chính xác",
+  "-2": "Nội dung tin nhắn không hợp lệ, bằng rỗng hoặc độ dài vượt giới hạn (Mạng Viettel Spam tối đa là 442, các mạng khác và Viettel chăm sóc khách hàng là 459 ký tự)",
+  "-3": "Sai số điện thoại",
+  "-4": "Server gửi tin có IP không chính xác",
+  "-5": "Tài khoản không được phép gửi tin nhắn thương hiệu",
+  "-6": "Tài khoản hết số lượng tin nhắn được phép gửi",
+  "-7": "Bị loop tin nhắn (tin nhắn có cùng số điện thoại 1 ngày không được phép gửi quá 80 tin)",
+  "-8": "Tài khoản bị khóa",
+  "-10": "Tên brandname chưa đăng ký",
+  "-11": "Mạng di động không được phép gừi tin Brandname"
+}
